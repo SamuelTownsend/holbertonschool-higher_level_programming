@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-def print_matrix_interrger(matrix=[[]]):
-    for x in matrix:
-        count = 0
-        for y in x:
-            if count < len(x) - 1:
-                print("{:d}".format(y), end =" ")
-                else:
-                    print("{:d}".format(y), end=" ")
-                    count = count + 1
-                    print()
+
+
+def print_matrix_integer(matrix=[[]]):
+    for i in range(len(matrix)):
+        if i != 0:
+            print()
+        for j in range(len(matrix[i])):
+            print("{:d}".format(matrix[i][j]), end="")
+            if j != (len(matrix[i]) - 1):
+                print(" ", end="")
+    print("")
