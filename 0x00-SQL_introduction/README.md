@@ -1,1 +1,1 @@
-SQL PROJECT
+SQL intro project
