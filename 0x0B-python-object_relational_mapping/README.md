@@ -1,0 +1,1 @@
+This folder is working with Object-relational mapping.
