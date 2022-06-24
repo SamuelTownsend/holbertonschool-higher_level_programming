@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#!/usr/bin/python3
 """
 This script lists all cities of a state given as an argument
 from the DB hbtn_0e_4_usa.
