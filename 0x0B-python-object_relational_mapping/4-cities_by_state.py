@@ -1,7 +1,6 @@
 #!/usr/bin/python3
-#!/usr/bin/python3
 """
-List all cities and corresponding states of given database
+List all cities and corresponding states of given database where name matches arguments
 """
 import MySQLdb
 
