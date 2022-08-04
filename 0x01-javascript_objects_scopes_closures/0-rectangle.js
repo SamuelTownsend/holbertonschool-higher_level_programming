@@ -4,7 +4,7 @@
  * Class Rectangle
  */
 
- class Rectangle {
+class Rectangle {
 
 }
 
