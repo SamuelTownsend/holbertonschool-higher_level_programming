@@ -12,6 +12,6 @@ if (isNaN(int) || flag === 1) {
   console.log('Missing number of occurrences');
 } else {
   for (let idx = 0; idx < int; idx++) {
-  console.log('C is fun');
+    console.log('C is fun');
   }
 }
