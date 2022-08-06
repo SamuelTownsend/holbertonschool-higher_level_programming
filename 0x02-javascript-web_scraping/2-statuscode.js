@@ -1,10 +1,10 @@
 #!/usr/bin/node
 
-const fileserver = require('fs');
-fileserver.writeFile(process.argv[2], process.argv[3],
-  'utf-8',
-  function (error, content) {
-    if (error) {
-      console.error(error);
-    }
-  });
+const request = require('request');
+request(process.argv[2], function (error, response, body) {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log('code:', response.statusCode);
+  }
+});
